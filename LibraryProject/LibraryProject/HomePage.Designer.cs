@@ -73,7 +73,7 @@ namespace LibraryProject
             this.removeBookToolStripMenuItem});
             this.addMemberToolStripMenuItem.Name = "addMemberToolStripMenuItem";
             this.addMemberToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
-            this.addMemberToolStripMenuItem.Text = "Menu";            
+            this.addMemberToolStripMenuItem.Text = "Menu";
             // 
             // addToolStripMenuItem
             // 

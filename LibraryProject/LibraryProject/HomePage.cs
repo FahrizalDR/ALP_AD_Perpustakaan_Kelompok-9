@@ -86,5 +86,12 @@ namespace LibraryProject
             addPublisher.MdiParent = this;
             addPublisher.Show();            
         }
+
+        private void bookToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            RemoveBook removeBook = new RemoveBook();
+            removeBook.MdiParent = this;
+            removeBook.Show();
+        }
     }
 }
