@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LibraryProject",
+    "\\LibraryProject\\LibraryProject"
   ],
-  "SelectedNode": "\\LibraryProject.sln",
+  "SelectedNode": "\\LibraryProject\\LibraryProject\\ReturnBook.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
