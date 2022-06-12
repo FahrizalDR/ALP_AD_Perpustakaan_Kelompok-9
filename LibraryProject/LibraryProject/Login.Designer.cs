@@ -29,6 +29,7 @@ namespace LibraryProject
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.buttonLogIn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.tboxUsername = new System.Windows.Forms.TextBox();
@@ -38,12 +39,15 @@ namespace LibraryProject
             // 
             // buttonLogIn
             // 
+            this.buttonLogIn.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonLogIn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLogIn.Location = new System.Drawing.Point(374, 165);
             this.buttonLogIn.Name = "buttonLogIn";
             this.buttonLogIn.Size = new System.Drawing.Size(95, 41);
             this.buttonLogIn.TabIndex = 0;
             this.buttonLogIn.Text = "Log In";
-            this.buttonLogIn.UseVisualStyleBackColor = true;
+            this.buttonLogIn.UseVisualStyleBackColor = false;
             this.buttonLogIn.Click += new System.EventHandler(this.buttonLogIn_Click);
             // 
             // label1
@@ -57,6 +61,7 @@ namespace LibraryProject
             // 
             // tboxUsername
             // 
+            this.tboxUsername.BackColor = System.Drawing.Color.Bisque;
             this.tboxUsername.Location = new System.Drawing.Point(166, 59);
             this.tboxUsername.Name = "tboxUsername";
             this.tboxUsername.Size = new System.Drawing.Size(303, 26);
@@ -73,6 +78,7 @@ namespace LibraryProject
             // 
             // textBoxPassword
             // 
+            this.textBoxPassword.BackColor = System.Drawing.Color.Bisque;
             this.textBoxPassword.Location = new System.Drawing.Point(166, 101);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(303, 26);
@@ -82,15 +88,17 @@ namespace LibraryProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(548, 231);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tboxUsername);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonLogIn);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "Login Perpustakaan Kita";
             this.ResumeLayout(false);
             this.PerformLayout();
 

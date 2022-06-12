@@ -64,6 +64,10 @@ namespace LibraryProject
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.textBoxFine = new System.Windows.Forms.TextBox();
+            this.buttonCheckFine = new System.Windows.Forms.Button();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBoxDescription = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudJumlahBuku)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPengembalian)).BeginInit();
             this.SuspendLayout();
@@ -84,7 +88,7 @@ namespace LibraryProject
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPengembalian.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dgvPengembalian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPengembalian.Location = new System.Drawing.Point(820, 144);
+            this.dgvPengembalian.Location = new System.Drawing.Point(827, 144);
             this.dgvPengembalian.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvPengembalian.Name = "dgvPengembalian";
             this.dgvPengembalian.RowHeadersWidth = 51;
@@ -95,24 +99,32 @@ namespace LibraryProject
             // 
             // buttonReturn
             // 
-            this.buttonReturn.Location = new System.Drawing.Point(77, 656);
+            this.buttonReturn.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonReturn.Location = new System.Drawing.Point(77, 707);
             this.buttonReturn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonReturn.Name = "buttonReturn";
             this.buttonReturn.Size = new System.Drawing.Size(174, 39);
             this.buttonReturn.TabIndex = 51;
             this.buttonReturn.Text = "Return";
-            this.buttonReturn.UseVisualStyleBackColor = true;
+            this.buttonReturn.UseVisualStyleBackColor = false;
             this.buttonReturn.Click += new System.EventHandler(this.buttonReturn_Click_1);
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(512, 656);
+            this.buttonCancel.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCancel.Location = new System.Drawing.Point(512, 707);
             this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(174, 39);
             this.buttonCancel.TabIndex = 50;
             this.buttonCancel.Text = "Cancel";
-            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.UseVisualStyleBackColor = false;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click_1);
             // 
             // chckboxLibrarian
@@ -133,7 +145,6 @@ namespace LibraryProject
             this.dtpReturnReal.Name = "dtpReturnReal";
             this.dtpReturnReal.Size = new System.Drawing.Size(397, 31);
             this.dtpReturnReal.TabIndex = 47;
-            this.dtpReturnReal.ValueChanged += new System.EventHandler(this.dtpReturnReal_ValueChanged);
             // 
             // dtpReturnContract
             // 
@@ -344,10 +355,11 @@ namespace LibraryProject
             // 
             this.labelNama.AutoSize = true;
             this.labelNama.BackColor = System.Drawing.Color.Transparent;
+            this.labelNama.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNama.ForeColor = System.Drawing.Color.Black;
             this.labelNama.Location = new System.Drawing.Point(291, 276);
             this.labelNama.Name = "labelNama";
-            this.labelNama.Size = new System.Drawing.Size(29, 20);
+            this.labelNama.Size = new System.Drawing.Size(34, 20);
             this.labelNama.TabIndex = 54;
             this.labelNama.Text = "[...]";
             // 
@@ -388,42 +400,52 @@ namespace LibraryProject
             // labelBookName2
             // 
             this.labelBookName2.AutoSize = true;
+            this.labelBookName2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBookName2.ForeColor = System.Drawing.Color.Black;
             this.labelBookName2.Location = new System.Drawing.Point(290, 475);
             this.labelBookName2.Name = "labelBookName2";
-            this.labelBookName2.Size = new System.Drawing.Size(46, 20);
+            this.labelBookName2.Size = new System.Drawing.Size(54, 20);
             this.labelBookName2.TabIndex = 55;
             this.labelBookName2.Text = "2. [...]";
             // 
             // labelBookName1
             // 
             this.labelBookName1.AutoSize = true;
+            this.labelBookName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBookName1.ForeColor = System.Drawing.Color.Black;
             this.labelBookName1.Location = new System.Drawing.Point(290, 444);
             this.labelBookName1.Name = "labelBookName1";
-            this.labelBookName1.Size = new System.Drawing.Size(46, 20);
+            this.labelBookName1.Size = new System.Drawing.Size(54, 20);
             this.labelBookName1.TabIndex = 56;
             this.labelBookName1.Text = "1. [...]";
             // 
             // buttonClear
             // 
-            this.buttonClear.Location = new System.Drawing.Point(295, 656);
+            this.buttonClear.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClear.Location = new System.Drawing.Point(295, 707);
             this.buttonClear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(174, 39);
             this.buttonClear.TabIndex = 51;
             this.buttonClear.Text = "Clear";
-            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.UseVisualStyleBackColor = false;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // buttonSearch
             // 
+            this.buttonSearch.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSearch.Location = new System.Drawing.Point(692, 236);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(75, 31);
+            this.buttonSearch.Size = new System.Drawing.Size(104, 31);
             this.buttonSearch.TabIndex = 57;
             this.buttonSearch.Text = "Search";
-            this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.UseVisualStyleBackColor = false;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // label17
@@ -460,6 +482,54 @@ namespace LibraryProject
             this.textBoxFine.TabIndex = 31;
             this.textBoxFine.TextChanged += new System.EventHandler(this.txtboxNIM_TextChanged);
             // 
+            // buttonCheckFine
+            // 
+            this.buttonCheckFine.BackColor = System.Drawing.Color.Chocolate;
+            this.buttonCheckFine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCheckFine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCheckFine.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCheckFine.Location = new System.Drawing.Point(692, 605);
+            this.buttonCheckFine.Name = "buttonCheckFine";
+            this.buttonCheckFine.Size = new System.Drawing.Size(104, 31);
+            this.buttonCheckFine.TabIndex = 57;
+            this.buttonCheckFine.Text = "Check Fine";
+            this.buttonCheckFine.UseVisualStyleBackColor = false;
+            this.buttonCheckFine.Click += new System.EventHandler(this.buttonCheckFine_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(74, 655);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(100, 20);
+            this.label19.TabIndex = 38;
+            this.label19.Text = "Description";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(269, 650);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(19, 25);
+            this.label20.TabIndex = 45;
+            this.label20.Text = ":";
+            // 
+            // textBoxDescription
+            // 
+            this.textBoxDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDescription.Location = new System.Drawing.Point(289, 647);
+            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxDescription.Name = "textBoxDescription";
+            this.textBoxDescription.Size = new System.Drawing.Size(397, 31);
+            this.textBoxDescription.TabIndex = 31;
+            this.textBoxDescription.TextChanged += new System.EventHandler(this.txtboxNIM_TextChanged);
+            // 
             // ReturnBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -467,6 +537,7 @@ namespace LibraryProject
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1420, 1003);
+            this.Controls.Add(this.buttonCheckFine);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.labelBookName2);
             this.Controls.Add(this.labelBookName1);
@@ -479,6 +550,7 @@ namespace LibraryProject
             this.Controls.Add(this.chckboxLibrarian);
             this.Controls.Add(this.dtpReturnReal);
             this.Controls.Add(this.dtpReturnContract);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label9);
@@ -487,6 +559,7 @@ namespace LibraryProject
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label6);
@@ -497,11 +570,13 @@ namespace LibraryProject
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBoxDescription);
             this.Controls.Add(this.textBoxFine);
             this.Controls.Add(this.textBoxBooksID);
             this.Controls.Add(this.txtboxNIM);
             this.Controls.Add(this.txtboxReturnID);
             this.Controls.Add(this.txtboxBorrowID);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ReturnBook";
             this.Text = "Return Book";
@@ -550,5 +625,9 @@ namespace LibraryProject
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBoxFine;
+        private System.Windows.Forms.Button buttonCheckFine;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox textBoxDescription;
     }
 }

@@ -23,12 +23,12 @@ namespace LibraryProject
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
         DataTable dtLibrarian = new DataTable();
+        string Gender;
 
         public void tampilData()
         {
             dtLibrarian = new DataTable();
             sqlQuery = "select KODE_PETUGAS as 'Librarian ID', NAMA_PETUGAS as 'Nama', JENIS_KELAMIN_PETUGAS as 'Jenis Kelamin', EMAIL_PETUGAS as 'Email', TELEPON_PETUGAS as 'Telepon', ALAMAT_PETUGAS as 'Alamat', DELETE_PETUGAS as 'Status' from PETUGAS_PERPUSTAKAAN";
-            MessageBox.Show(sqlQuery);
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtLibrarian);
@@ -44,10 +44,11 @@ namespace LibraryProject
             else
                 Gender = "F";
 
-            sqlQuery = "insert into PETUGAS_PERPUSTAKAAN (KODE_PETUGAS, NAMA_PETUGAS, JENIS_KELAMIN_PETUGAS, EMAIL_PETUGAS, TELEPON_PETUGAS, ALAMAT_PETUGAS, DELETE_PETUGAS) values ('" + tbLibrarianID.Text + "', '" + tbLibrarianName.Text + "', '" + Gender + "', '" + tbLibrarianEmail.Text + "', '" + tbLibrarianPhone.Text + "', '" + tbLibrarianAddress.Text + "', + '" + tbStatus.Text + "')";
+            sqlQuery = "insert into PETUGAS_PERPUSTAKAAN (KODE_PETUGAS, NAMA_PETUGAS, JENIS_KELAMIN_PETUGAS, EMAIL_PETUGAS, TELEPON_PETUGAS, ALAMAT_PETUGAS, DELETE_PETUGAS) values ('" + tbLibrarianID.Text + "', '" + tbLibrarianName.Text + "', '" + Gender + "', '" + tbLibrarianEmail.Text + "', '" + tbLibrarianPhone.Text + "', '" + tbLibrarianAddress.Text + "', '" + tbStatus.Text + "')";
             sqlConnect.Open();
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlCommand.ExecuteNonQuery();
+            MessageBox.Show(sqlQuery);
             MessageBox.Show("Data added successfully");
             Clear();
             tbLibrarianID.Focus();
@@ -57,7 +58,6 @@ namespace LibraryProject
 
         public void editData()
         {
-            string Gender = "";
             if (rbMale.Checked == true)
                 Gender = "M";
             else
@@ -66,6 +66,7 @@ namespace LibraryProject
             sqlConnect.Open();
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlCommand.ExecuteNonQuery();
+            MessageBox.Show(sqlQuery);
             MessageBox.Show("Data updated successfully");
             Clear();
             tbLibrarianID.Enabled = true;
@@ -102,13 +103,38 @@ namespace LibraryProject
                 tbStatus.Focus();
         }
 
-        private void AddLibrarian_Load(object sender, EventArgs e)
+        private void AddLibrarian_Load_1(object sender, EventArgs e)
         {
             tampilData();
             tbLibrarianPhone.MaxLength = 13;
         }
 
-        private void buttonAdd_Click(object sender, EventArgs e)
+        private void buttonClear_Click_1(object sender, EventArgs e)
+        {
+            tbLibrarianID.Enabled = true;
+            tbLibrarianID.Focus();
+            Clear();
+        }
+
+        private void buttonCancel_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonUpdate_Click_1(object sender, EventArgs e)
+        {
+            if (tbLibrarianName.Text == "" || tbLibrarianPhone.Text == "" || tbLibrarianAddress.Text == "" || tbLibrarianEmail.Text == "" || tbStatus.Text == "" || (rbMale.Checked == false && rbFemale.Checked == false))
+            {
+                MessageBox.Show("Data is not complete");
+                FocusOnEmptyTextBox();
+            }
+            else
+            {
+                editData();
+            }
+        }
+
+        private void buttonAdd_Click_1(object sender, EventArgs e)
         {
             if (tbLibrarianID.Text == "" || tbLibrarianName.Text == "" || tbLibrarianPhone.Text == "" || tbLibrarianAddress.Text == "" || tbLibrarianEmail.Text == "" || tbStatus.Text == "")
             {
@@ -121,54 +147,29 @@ namespace LibraryProject
             }
         }
 
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void buttonUpdate_Click(object sender, EventArgs e)
-        {
-            if (tbLibrarianName.Text == "" || tbLibrarianPhone.Text == "" || tbLibrarianAddress.Text == "" || tbLibrarianEmail.Text == "" || tbStatus.Text == "")
-            {
-                MessageBox.Show("Data is not complete");
-                FocusOnEmptyTextBox();
-            }
-            else
-            {
-                editData();
-            }
-        }
-
-        private void buttonClear_Click(object sender, EventArgs e)
-        {
-            tbLibrarianID.Enabled = true;
-            tbLibrarianID.Focus();
-            Clear();
-        }
-
-        private void dgvLibrarian_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvLibrarian_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             tbLibrarianID.Enabled = false;
             DataGridViewRow row = this.dgvLibrarian.Rows[e.RowIndex];
             tbLibrarianID.Text = row.Cells["Librarian ID"].Value.ToString();
             tbLibrarianName.Text = row.Cells["Nama"].Value.ToString();
+            Gender = row.Cells["Jenis Kelamin"].Value.ToString();
+            if (Gender == "M")
+                rbMale.Checked = true;
+            else
+                rbFemale.Checked = true;
             tbLibrarianPhone.Text = row.Cells["Telepon"].Value.ToString();
             tbLibrarianAddress.Text = row.Cells["Alamat"].Value.ToString();
             tbLibrarianEmail.Text = row.Cells["Email"].Value.ToString();
             tbStatus.Text = row.Cells["Status"].Value.ToString();
         }
 
-        private void tbMemberPhone_KeyPress(object sender, KeyPressEventArgs e)
+        private void tbLibrarianPhone_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
             }
-        }
-
-        private void AddLibrarian_Load_1(object sender, EventArgs e)
-        {
-            tampilData();
         }
     }
 }

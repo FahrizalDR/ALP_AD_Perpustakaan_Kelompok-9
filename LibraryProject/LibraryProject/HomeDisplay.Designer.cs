@@ -36,10 +36,10 @@ namespace LibraryProject
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(476, 254);
+            this.textBoxSearch.Location = new System.Drawing.Point(696, 221);
             this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(462, 26);
+            this.textBoxSearch.Size = new System.Drawing.Size(500, 26);
             this.textBoxSearch.TabIndex = 0;
             this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
@@ -47,7 +47,7 @@ namespace LibraryProject
             // 
             this.dgvPlayer.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dgvPlayer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPlayer.Location = new System.Drawing.Point(225, 322);
+            this.dgvPlayer.Location = new System.Drawing.Point(436, 321);
             this.dgvPlayer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvPlayer.Name = "dgvPlayer";
             this.dgvPlayer.RowHeadersWidth = 51;

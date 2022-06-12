@@ -190,5 +190,8 @@
   <ItemGroup>
     <None Include="Resources\pexels-rafael-cosquiere-2041540.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desain tanpa judul %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

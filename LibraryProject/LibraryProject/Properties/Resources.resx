@@ -124,6 +124,9 @@
   <data name="227319" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\227319.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Desain_tanpa_judul__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Desain tanpa judul (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pexels-rafael-cosquiere-2041540" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-rafael-cosquiere-2041540.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

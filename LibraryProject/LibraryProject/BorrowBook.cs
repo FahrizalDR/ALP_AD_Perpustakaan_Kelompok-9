@@ -135,6 +135,7 @@ namespace LibraryProject
             tbReturnID.Enabled = false;
             dtpReturn.Enabled = false;
             nudJumlahBuku.Maximum = 2;
+            tbNIM.Focus();
             Hitung();
 
         }
@@ -155,11 +156,6 @@ namespace LibraryProject
                 tbNIM.Focus();
                 Hitung(); 
             }
-
-        }
-
-        private void buttonRemove_Click(object sender, EventArgs e)
-        {
 
         }
 

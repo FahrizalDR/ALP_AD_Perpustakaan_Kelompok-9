@@ -23,6 +23,7 @@ namespace LibraryProject
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
         DataTable dtMember = new DataTable();
+        string Gender;
 
         public void tampilData()
         {
@@ -152,6 +153,11 @@ namespace LibraryProject
             DataGridViewRow row = this.dgvMember.Rows[e.RowIndex];
             tbNIM.Text = row.Cells["NIM"].Value.ToString();
             tbMemberName.Text = row.Cells["Nama"].Value.ToString();
+            Gender = row.Cells["Jenis Kelamin"].Value.ToString();
+            if (Gender == "M")
+                rbMale.Checked = true;
+            else
+                rbFemale.Checked = true;
             tbMemberPhone.Text = row.Cells["Telepon"].Value.ToString();
             tbMemberAddress.Text = row.Cells["Alamat"].Value.ToString();
             tbMemberEmail.Text = row.Cells["Email"].Value.ToString();
