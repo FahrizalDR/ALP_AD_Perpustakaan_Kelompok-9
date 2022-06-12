@@ -86,6 +86,7 @@ namespace LibraryProject
         private void AddAuthor_Load(object sender, EventArgs e)
         {
             tampilData();
+            tbPhone.MaxLength = 13;
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -135,6 +136,14 @@ namespace LibraryProject
             tbAuthorID.Enabled = true;
             tbAuthorID.Focus();
             Clear();
+        }
+
+        private void tbPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

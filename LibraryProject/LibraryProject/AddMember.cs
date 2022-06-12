@@ -104,6 +104,7 @@ namespace LibraryProject
         private void AddMember_Load(object sender, EventArgs e)
         {
             tampilData();
+            tbMemberPhone.MaxLength = 13;
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -154,6 +155,14 @@ namespace LibraryProject
             tbMemberAddress.Text = row.Cells["Alamat"].Value.ToString();
             tbMemberEmail.Text = row.Cells["Email"].Value.ToString();
             tbStatus.Text = row.Cells["Status"].Value.ToString();
+        }
+
+        private void tbMemberPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

@@ -92,6 +92,7 @@ namespace LibraryProject
         private void AddPublisher_Load(object sender, EventArgs e)
         {
             tampilData();
+            tbPublisherPhone.MaxLength = 13;
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -142,6 +143,14 @@ namespace LibraryProject
             tbPublisherID.Enabled = true;
             tbPublisherID.Focus();
             Clear();
+        }
+
+        private void tbPublisherPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

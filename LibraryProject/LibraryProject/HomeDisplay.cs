@@ -25,7 +25,8 @@ namespace LibraryProject
         DataTable dtBuku = new DataTable();        
 
         private void HomeDisplay_Load(object sender, EventArgs e)
-        {            
+        {
+            this.WindowState = FormWindowState.Maximized;
             sqlQuery = "select JUDUL_BUKU from BUKU";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);

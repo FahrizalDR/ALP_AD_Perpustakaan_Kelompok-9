@@ -27,7 +27,8 @@ namespace LibraryProject
         public void tampilData()
         {
             dtBook = new DataTable();
-            sqlQuery = "select KODE_BUKU as 'ID Buku', KODE_KATEGORI as 'ID Genre', KODE_PENERBIT as 'ID Penerbit', KODE_PENULIS as 'ID Penulis', JUDUL_BUKU as 'Judul Buku', TAHUN_TERBIT_BUKU as 'Tahun Terbit', BAHASA_BUKU as 'Bahasa', EDISI_BUKU as 'Edisi', DELETE_BUKU as 'Status' from BUKU";
+            sqlQuery = "select * from BUKU";
+            //sqlQuery = "select KODE_BUKU as 'ID Buku', KODE_KATEGORI as 'ID Genre', KODE_PENERBIT as 'ID Penerbit', KODE_PENULIS as 'ID Penulis', JUDUL_BUKU as 'Judul Buku', TAHUN_TERBIT_BUKU as 'Tahun Terbit', BAHASA_BUKU as 'Bahasa', EDISI_BUKU as 'Edisi', DELETE_BUKU as 'Status' from BUKU";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtBook);
@@ -139,14 +140,6 @@ namespace LibraryProject
             this.Close();
         }
 
-        private void AddBook_Load(object sender, EventArgs e)
-        {
-            tampilData();
-            LoadGenre();
-            LoadAuthor();
-            LoadPublisher();
-        }
-
         private void buttonRemove_Click(object sender, EventArgs e)
         {
             tbBookID.Enabled = true;
@@ -167,6 +160,14 @@ namespace LibraryProject
             tbLanguage.Text = row.Cells["Bahasa"].Value.ToString();
             tbEdition.Text = row.Cells["Edisi"].Value.ToString();
             tbStatus.Text = row.Cells["Status"].Value.ToString();
+        }
+
+        private void RemoveBook_Load(object sender, EventArgs e)
+        {
+            tampilData();
+            LoadGenre();
+            LoadAuthor();
+            LoadPublisher();
         }
     }
 }

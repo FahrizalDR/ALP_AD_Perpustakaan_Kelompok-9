@@ -40,27 +40,29 @@ namespace LibraryProject
             this.publisherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.borrowBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.removeBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.liToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.homeToolStripMenuItem,
             this.addMemberToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1262, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1420, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // homeToolStripMenuItem
             // 
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
             this.homeToolStripMenuItem.Text = "Home";
             this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
@@ -69,10 +71,9 @@ namespace LibraryProject
             this.addMemberToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addToolStripMenuItem,
             this.borrowBookToolStripMenuItem,
-            this.returnBookToolStripMenuItem,
-            this.removeBookToolStripMenuItem});
+            this.returnBookToolStripMenuItem});
             this.addMemberToolStripMenuItem.Name = "addMemberToolStripMenuItem";
-            this.addMemberToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.addMemberToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
             this.addMemberToolStripMenuItem.Text = "Menu";
             // 
             // addToolStripMenuItem
@@ -81,76 +82,77 @@ namespace LibraryProject
             this.authorToolStripMenuItem,
             this.bookToolStripMenuItem,
             this.genreToolStripMenuItem,
+            this.liToolStripMenuItem,
             this.memberToolStripMenuItem,
             this.publisherToolStripMenuItem});
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.addToolStripMenuItem.Text = "Add";
             // 
             // authorToolStripMenuItem
             // 
             this.authorToolStripMenuItem.Name = "authorToolStripMenuItem";
-            this.authorToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.authorToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.authorToolStripMenuItem.Text = "Author";
             this.authorToolStripMenuItem.Click += new System.EventHandler(this.authorToolStripMenuItem_Click);
             // 
             // bookToolStripMenuItem
             // 
             this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
-            this.bookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bookToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.bookToolStripMenuItem.Text = "Book";
             this.bookToolStripMenuItem.Click += new System.EventHandler(this.bookToolStripMenuItem_Click);
             // 
             // genreToolStripMenuItem
             // 
             this.genreToolStripMenuItem.Name = "genreToolStripMenuItem";
-            this.genreToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.genreToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.genreToolStripMenuItem.Text = "Genre";
             this.genreToolStripMenuItem.Click += new System.EventHandler(this.genreToolStripMenuItem_Click);
             // 
             // memberToolStripMenuItem
             // 
             this.memberToolStripMenuItem.Name = "memberToolStripMenuItem";
-            this.memberToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.memberToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.memberToolStripMenuItem.Text = "Member";
             this.memberToolStripMenuItem.Click += new System.EventHandler(this.memberToolStripMenuItem_Click);
             // 
             // publisherToolStripMenuItem
             // 
             this.publisherToolStripMenuItem.Name = "publisherToolStripMenuItem";
-            this.publisherToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.publisherToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.publisherToolStripMenuItem.Text = "Publisher";
             this.publisherToolStripMenuItem.Click += new System.EventHandler(this.publisherToolStripMenuItem_Click);
             // 
             // borrowBookToolStripMenuItem
             // 
             this.borrowBookToolStripMenuItem.Name = "borrowBookToolStripMenuItem";
-            this.borrowBookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.borrowBookToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.borrowBookToolStripMenuItem.Text = "Borrow Book";
             this.borrowBookToolStripMenuItem.Click += new System.EventHandler(this.borrowBookToolStripMenuItem_Click);
             // 
             // returnBookToolStripMenuItem
             // 
             this.returnBookToolStripMenuItem.Name = "returnBookToolStripMenuItem";
-            this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.returnBookToolStripMenuItem.Text = "Return Book";
             this.returnBookToolStripMenuItem.Click += new System.EventHandler(this.returnBookToolStripMenuItem_Click);
             // 
-            // removeBookToolStripMenuItem
+            // liToolStripMenuItem
             // 
-            this.removeBookToolStripMenuItem.Name = "removeBookToolStripMenuItem";
-            this.removeBookToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.removeBookToolStripMenuItem.Text = "Remove Book";
-            this.removeBookToolStripMenuItem.Click += new System.EventHandler(this.removeBookToolStripMenuItem_Click);
+            this.liToolStripMenuItem.Name = "liToolStripMenuItem";
+            this.liToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.liToolStripMenuItem.Text = "Librarian";
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.ClientSize = new System.Drawing.Size(1420, 841);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Home Page";
@@ -172,10 +174,10 @@ namespace LibraryProject
         private System.Windows.Forms.ToolStripMenuItem memberToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem borrowBookToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem returnBookToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem removeBookToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem authorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem publisherToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem liToolStripMenuItem;
     }
 }
 

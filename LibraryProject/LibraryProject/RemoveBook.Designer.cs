@@ -67,35 +67,37 @@ namespace LibraryProject
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(514, 312);
+            this.label17.Location = new System.Drawing.Point(578, 390);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 20);
+            this.label17.Size = new System.Drawing.Size(18, 25);
             this.label17.TabIndex = 91;
             this.label17.Text = ":";
             // 
             // tbStatus
             // 
             this.tbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbStatus.Location = new System.Drawing.Point(532, 309);
+            this.tbStatus.Location = new System.Drawing.Point(598, 386);
+            this.tbStatus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbStatus.Name = "tbStatus";
-            this.tbStatus.Size = new System.Drawing.Size(332, 27);
+            this.tbStatus.Size = new System.Drawing.Size(373, 31);
             this.tbStatus.TabIndex = 75;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(417, 312);
+            this.label18.Location = new System.Drawing.Point(469, 390);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(57, 20);
+            this.label18.Size = new System.Drawing.Size(73, 25);
             this.label18.TabIndex = 90;
             this.label18.Text = "Status";
             // 
             // buttonRemove
             // 
-            this.buttonRemove.Location = new System.Drawing.Point(593, 352);
+            this.buttonRemove.Location = new System.Drawing.Point(667, 440);
+            this.buttonRemove.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonRemove.Name = "buttonRemove";
-            this.buttonRemove.Size = new System.Drawing.Size(98, 32);
+            this.buttonRemove.Size = new System.Drawing.Size(110, 40);
             this.buttonRemove.TabIndex = 89;
             this.buttonRemove.Text = "Remove";
             this.buttonRemove.UseVisualStyleBackColor = true;
@@ -104,27 +106,28 @@ namespace LibraryProject
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(515, 204);
+            this.label15.Location = new System.Drawing.Point(579, 255);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(14, 20);
+            this.label15.Size = new System.Drawing.Size(18, 25);
             this.label15.TabIndex = 87;
             this.label15.Text = ":";
             // 
             // tbYear
             // 
             this.tbYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbYear.Location = new System.Drawing.Point(533, 201);
+            this.tbYear.Location = new System.Drawing.Point(600, 251);
+            this.tbYear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbYear.Name = "tbYear";
-            this.tbYear.Size = new System.Drawing.Size(332, 27);
+            this.tbYear.Size = new System.Drawing.Size(373, 31);
             this.tbYear.TabIndex = 72;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(418, 204);
+            this.label16.Location = new System.Drawing.Point(470, 255);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(43, 20);
+            this.label16.Size = new System.Drawing.Size(58, 25);
             this.label16.TabIndex = 86;
             this.label16.Text = "Year";
             // 
@@ -132,9 +135,9 @@ namespace LibraryProject
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(515, 276);
+            this.label12.Location = new System.Drawing.Point(579, 345);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(14, 20);
+            this.label12.Size = new System.Drawing.Size(18, 25);
             this.label12.TabIndex = 85;
             this.label12.Text = ":";
             // 
@@ -142,9 +145,9 @@ namespace LibraryProject
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(515, 240);
+            this.label13.Location = new System.Drawing.Point(579, 300);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 20);
+            this.label13.Size = new System.Drawing.Size(18, 25);
             this.label13.TabIndex = 84;
             this.label13.Text = ":";
             // 
@@ -152,9 +155,9 @@ namespace LibraryProject
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(515, 167);
+            this.label14.Location = new System.Drawing.Point(579, 209);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(14, 20);
+            this.label14.Size = new System.Drawing.Size(18, 25);
             this.label14.TabIndex = 83;
             this.label14.Text = ":";
             // 
@@ -162,9 +165,9 @@ namespace LibraryProject
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(515, 130);
+            this.label10.Location = new System.Drawing.Point(579, 162);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(14, 20);
+            this.label10.Size = new System.Drawing.Size(18, 25);
             this.label10.TabIndex = 82;
             this.label10.Text = ":";
             // 
@@ -172,9 +175,9 @@ namespace LibraryProject
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(515, 94);
+            this.label11.Location = new System.Drawing.Point(579, 118);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 20);
+            this.label11.Size = new System.Drawing.Size(18, 25);
             this.label11.TabIndex = 81;
             this.label11.Text = ":";
             // 
@@ -182,9 +185,9 @@ namespace LibraryProject
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(515, 57);
+            this.label8.Location = new System.Drawing.Point(579, 71);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(14, 20);
+            this.label8.Size = new System.Drawing.Size(18, 25);
             this.label8.TabIndex = 80;
             this.label8.Text = ":";
             // 
@@ -192,26 +195,28 @@ namespace LibraryProject
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(515, 21);
+            this.label7.Location = new System.Drawing.Point(579, 26);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(14, 20);
+            this.label7.Size = new System.Drawing.Size(18, 25);
             this.label7.TabIndex = 79;
             this.label7.Text = ":";
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(766, 352);
+            this.buttonCancel.Location = new System.Drawing.Point(862, 440);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(98, 32);
+            this.buttonCancel.Size = new System.Drawing.Size(110, 40);
             this.buttonCancel.TabIndex = 78;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(421, 352);
+            this.buttonAdd.Location = new System.Drawing.Point(474, 440);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(98, 32);
+            this.buttonAdd.Size = new System.Drawing.Size(110, 40);
             this.buttonAdd.TabIndex = 77;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -222,79 +227,87 @@ namespace LibraryProject
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBook.Location = new System.Drawing.Point(223, 402);
+            this.dgvBook.Location = new System.Drawing.Point(251, 502);
+            this.dgvBook.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvBook.Name = "dgvBook";
             this.dgvBook.RowHeadersWidth = 51;
             this.dgvBook.RowTemplate.Height = 24;
-            this.dgvBook.Size = new System.Drawing.Size(816, 252);
+            this.dgvBook.Size = new System.Drawing.Size(918, 315);
             this.dgvBook.TabIndex = 76;
             // 
             // tbLanguage
             // 
             this.tbLanguage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbLanguage.Location = new System.Drawing.Point(533, 273);
+            this.tbLanguage.Location = new System.Drawing.Point(600, 341);
+            this.tbLanguage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbLanguage.Name = "tbLanguage";
-            this.tbLanguage.Size = new System.Drawing.Size(332, 27);
+            this.tbLanguage.Size = new System.Drawing.Size(373, 31);
             this.tbLanguage.TabIndex = 74;
             // 
             // tbEdition
             // 
             this.tbEdition.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEdition.Location = new System.Drawing.Point(533, 237);
+            this.tbEdition.Location = new System.Drawing.Point(600, 296);
+            this.tbEdition.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbEdition.Name = "tbEdition";
-            this.tbEdition.Size = new System.Drawing.Size(332, 27);
+            this.tbEdition.Size = new System.Drawing.Size(373, 31);
             this.tbEdition.TabIndex = 73;
             // 
             // cbPublisher
             // 
             this.cbPublisher.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbPublisher.FormattingEnabled = true;
-            this.cbPublisher.Location = new System.Drawing.Point(533, 164);
+            this.cbPublisher.Location = new System.Drawing.Point(600, 205);
+            this.cbPublisher.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbPublisher.Name = "cbPublisher";
-            this.cbPublisher.Size = new System.Drawing.Size(332, 28);
+            this.cbPublisher.Size = new System.Drawing.Size(373, 33);
             this.cbPublisher.TabIndex = 71;
             // 
             // cbAuthor
             // 
             this.cbAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbAuthor.FormattingEnabled = true;
-            this.cbAuthor.Location = new System.Drawing.Point(533, 127);
+            this.cbAuthor.Location = new System.Drawing.Point(600, 159);
+            this.cbAuthor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbAuthor.Name = "cbAuthor";
-            this.cbAuthor.Size = new System.Drawing.Size(332, 28);
+            this.cbAuthor.Size = new System.Drawing.Size(373, 33);
             this.cbAuthor.TabIndex = 70;
             // 
             // tbTitle
             // 
             this.tbTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTitle.Location = new System.Drawing.Point(533, 91);
+            this.tbTitle.Location = new System.Drawing.Point(600, 114);
+            this.tbTitle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbTitle.Name = "tbTitle";
-            this.tbTitle.Size = new System.Drawing.Size(332, 27);
+            this.tbTitle.Size = new System.Drawing.Size(373, 31);
             this.tbTitle.TabIndex = 69;
             // 
             // cbGenre
             // 
             this.cbGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGenre.FormattingEnabled = true;
-            this.cbGenre.Location = new System.Drawing.Point(533, 54);
+            this.cbGenre.Location = new System.Drawing.Point(600, 68);
+            this.cbGenre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbGenre.Name = "cbGenre";
-            this.cbGenre.Size = new System.Drawing.Size(332, 28);
+            this.cbGenre.Size = new System.Drawing.Size(373, 33);
             this.cbGenre.TabIndex = 68;
             // 
             // tbBookID
             // 
             this.tbBookID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbBookID.Location = new System.Drawing.Point(533, 18);
+            this.tbBookID.Location = new System.Drawing.Point(600, 22);
+            this.tbBookID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbBookID.Name = "tbBookID";
-            this.tbBookID.Size = new System.Drawing.Size(332, 27);
+            this.tbBookID.Size = new System.Drawing.Size(373, 31);
             this.tbBookID.TabIndex = 67;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(418, 21);
+            this.label9.Location = new System.Drawing.Point(470, 26);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 20);
+            this.label9.Size = new System.Drawing.Size(87, 25);
             this.label9.TabIndex = 66;
             this.label9.Text = "Book ID";
             // 
@@ -302,9 +315,9 @@ namespace LibraryProject
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(418, 276);
+            this.label6.Location = new System.Drawing.Point(470, 345);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 20);
+            this.label6.Size = new System.Drawing.Size(114, 25);
             this.label6.TabIndex = 65;
             this.label6.Text = "Language ";
             // 
@@ -312,9 +325,9 @@ namespace LibraryProject
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(418, 240);
+            this.label5.Location = new System.Drawing.Point(470, 300);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 20);
+            this.label5.Size = new System.Drawing.Size(84, 25);
             this.label5.TabIndex = 64;
             this.label5.Text = "Edition ";
             // 
@@ -322,9 +335,9 @@ namespace LibraryProject
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(418, 167);
+            this.label4.Location = new System.Drawing.Point(470, 209);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 20);
+            this.label4.Size = new System.Drawing.Size(102, 25);
             this.label4.TabIndex = 63;
             this.label4.Text = "Publisher";
             // 
@@ -332,9 +345,9 @@ namespace LibraryProject
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(418, 130);
+            this.label3.Location = new System.Drawing.Point(470, 162);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 20);
+            this.label3.Size = new System.Drawing.Size(100, 25);
             this.label3.TabIndex = 62;
             this.label3.Text = "Author(s)";
             // 
@@ -342,9 +355,9 @@ namespace LibraryProject
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(418, 94);
+            this.label2.Location = new System.Drawing.Point(470, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 20);
+            this.label2.Size = new System.Drawing.Size(53, 25);
             this.label2.TabIndex = 61;
             this.label2.Text = "Title";
             // 
@@ -352,17 +365,17 @@ namespace LibraryProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(418, 57);
+            this.label1.Location = new System.Drawing.Point(470, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 20);
+            this.label1.Size = new System.Drawing.Size(71, 25);
             this.label1.TabIndex = 60;
             this.label1.Text = "Genre";
             // 
             // RemoveBook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.ClientSize = new System.Drawing.Size(1420, 841);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.tbStatus);
             this.Controls.Add(this.label18);
@@ -394,8 +407,10 @@ namespace LibraryProject
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "RemoveBook";
             this.Text = "Remove Book";
+            this.Load += new System.EventHandler(this.RemoveBook_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBook)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
