@@ -67,7 +67,7 @@ namespace LibraryProject
             // tbBorrowID
             // 
             this.tbBorrowID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbBorrowID.Location = new System.Drawing.Point(605, 50);
+            this.tbBorrowID.Location = new System.Drawing.Point(263, 78);
             this.tbBorrowID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbBorrowID.Name = "tbBorrowID";
             this.tbBorrowID.Size = new System.Drawing.Size(397, 31);
@@ -76,7 +76,7 @@ namespace LibraryProject
             // tbReturnID
             // 
             this.tbReturnID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbReturnID.Location = new System.Drawing.Point(605, 95);
+            this.tbReturnID.Location = new System.Drawing.Point(263, 123);
             this.tbReturnID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbReturnID.Name = "tbReturnID";
             this.tbReturnID.Size = new System.Drawing.Size(397, 31);
@@ -85,7 +85,7 @@ namespace LibraryProject
             // tbNIM
             // 
             this.tbNIM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNIM.Location = new System.Drawing.Point(605, 140);
+            this.tbNIM.Location = new System.Drawing.Point(263, 168);
             this.tbNIM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbNIM.Name = "tbNIM";
             this.tbNIM.Size = new System.Drawing.Size(397, 31);
@@ -95,7 +95,7 @@ namespace LibraryProject
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(423, 58);
+            this.label1.Location = new System.Drawing.Point(81, 86);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 20);
             this.label1.TabIndex = 7;
@@ -104,7 +104,7 @@ namespace LibraryProject
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(423, 148);
+            this.label2.Location = new System.Drawing.Point(81, 176);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 20);
             this.label2.TabIndex = 8;
@@ -113,7 +113,7 @@ namespace LibraryProject
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(423, 230);
+            this.label3.Location = new System.Drawing.Point(81, 258);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 20);
             this.label3.TabIndex = 10;
@@ -122,7 +122,7 @@ namespace LibraryProject
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(423, 102);
+            this.label4.Location = new System.Drawing.Point(81, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 20);
             this.label4.TabIndex = 9;
@@ -131,7 +131,7 @@ namespace LibraryProject
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(423, 469);
+            this.label6.Location = new System.Drawing.Point(81, 497);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(162, 20);
             this.label6.TabIndex = 13;
@@ -140,7 +140,7 @@ namespace LibraryProject
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(423, 424);
+            this.label7.Location = new System.Drawing.Point(81, 452);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(98, 20);
             this.label7.TabIndex = 12;
@@ -149,7 +149,7 @@ namespace LibraryProject
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(423, 276);
+            this.label8.Location = new System.Drawing.Point(81, 304);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(132, 20);
             this.label8.TabIndex = 11;
@@ -159,7 +159,7 @@ namespace LibraryProject
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(585, 467);
+            this.label5.Location = new System.Drawing.Point(243, 495);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(18, 25);
             this.label5.TabIndex = 20;
@@ -169,7 +169,7 @@ namespace LibraryProject
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(585, 422);
+            this.label9.Location = new System.Drawing.Point(243, 450);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(18, 25);
             this.label9.TabIndex = 19;
@@ -179,7 +179,7 @@ namespace LibraryProject
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(585, 272);
+            this.label10.Location = new System.Drawing.Point(243, 300);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(18, 25);
             this.label10.TabIndex = 18;
@@ -189,7 +189,7 @@ namespace LibraryProject
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(585, 227);
+            this.label11.Location = new System.Drawing.Point(243, 255);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(18, 25);
             this.label11.TabIndex = 17;
@@ -199,7 +199,7 @@ namespace LibraryProject
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(585, 144);
+            this.label12.Location = new System.Drawing.Point(243, 172);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(18, 25);
             this.label12.TabIndex = 16;
@@ -209,7 +209,7 @@ namespace LibraryProject
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(585, 99);
+            this.label13.Location = new System.Drawing.Point(243, 127);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(18, 25);
             this.label13.TabIndex = 15;
@@ -219,7 +219,7 @@ namespace LibraryProject
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(585, 54);
+            this.label14.Location = new System.Drawing.Point(243, 82);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(18, 25);
             this.label14.TabIndex = 14;
@@ -229,7 +229,7 @@ namespace LibraryProject
             // 
             this.dtpBorrow.CustomFormat = "";
             this.dtpBorrow.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpBorrow.Location = new System.Drawing.Point(605, 419);
+            this.dtpBorrow.Location = new System.Drawing.Point(263, 447);
             this.dtpBorrow.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtpBorrow.Name = "dtpBorrow";
             this.dtpBorrow.Size = new System.Drawing.Size(397, 31);
@@ -239,7 +239,7 @@ namespace LibraryProject
             // dtpReturn
             // 
             this.dtpReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpReturn.Location = new System.Drawing.Point(605, 464);
+            this.dtpReturn.Location = new System.Drawing.Point(263, 492);
             this.dtpReturn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtpReturn.Name = "dtpReturn";
             this.dtpReturn.Size = new System.Drawing.Size(397, 31);
@@ -250,7 +250,7 @@ namespace LibraryProject
             // 
             this.cbLibrarian.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbLibrarian.FormattingEnabled = true;
-            this.cbLibrarian.Location = new System.Drawing.Point(605, 223);
+            this.cbLibrarian.Location = new System.Drawing.Point(263, 251);
             this.cbLibrarian.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbLibrarian.Name = "cbLibrarian";
             this.cbLibrarian.Size = new System.Drawing.Size(397, 33);
@@ -258,7 +258,7 @@ namespace LibraryProject
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(426, 527);
+            this.buttonAdd.Location = new System.Drawing.Point(84, 555);
             this.buttonAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(177, 39);
@@ -269,7 +269,7 @@ namespace LibraryProject
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(827, 527);
+            this.buttonCancel.Location = new System.Drawing.Point(485, 555);
             this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(175, 39);
@@ -280,20 +280,23 @@ namespace LibraryProject
             // 
             // dgvPeminjaman
             // 
+            this.dgvPeminjaman.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPeminjaman.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPeminjaman.Location = new System.Drawing.Point(220, 593);
+            this.dgvPeminjaman.Location = new System.Drawing.Point(693, 78);
             this.dgvPeminjaman.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvPeminjaman.Name = "dgvPeminjaman";
             this.dgvPeminjaman.RowHeadersWidth = 51;
             this.dgvPeminjaman.RowTemplate.Height = 24;
-            this.dgvPeminjaman.Size = new System.Drawing.Size(998, 359);
+            this.dgvPeminjaman.Size = new System.Drawing.Size(530, 359);
             this.dgvPeminjaman.TabIndex = 27;
             this.dgvPeminjaman.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPeminjaman_CellClick);
             // 
             // nudJumlahBuku
             // 
             this.nudJumlahBuku.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudJumlahBuku.Location = new System.Drawing.Point(605, 269);
+            this.nudJumlahBuku.Location = new System.Drawing.Point(263, 297);
             this.nudJumlahBuku.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nudJumlahBuku.Name = "nudJumlahBuku";
             this.nudJumlahBuku.Size = new System.Drawing.Size(135, 31);
@@ -301,7 +304,7 @@ namespace LibraryProject
             // 
             // buttonClear
             // 
-            this.buttonClear.Location = new System.Drawing.Point(629, 527);
+            this.buttonClear.Location = new System.Drawing.Point(287, 555);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(172, 39);
             this.buttonClear.TabIndex = 29;
@@ -312,7 +315,7 @@ namespace LibraryProject
             // labelNama
             // 
             this.labelNama.AutoSize = true;
-            this.labelNama.Location = new System.Drawing.Point(604, 188);
+            this.labelNama.Location = new System.Drawing.Point(262, 216);
             this.labelNama.Name = "labelNama";
             this.labelNama.Size = new System.Drawing.Size(29, 20);
             this.labelNama.TabIndex = 30;
@@ -321,7 +324,7 @@ namespace LibraryProject
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(423, 316);
+            this.label15.Location = new System.Drawing.Point(81, 344);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(75, 20);
             this.label15.TabIndex = 31;
@@ -331,7 +334,7 @@ namespace LibraryProject
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(585, 312);
+            this.label16.Location = new System.Drawing.Point(243, 340);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(18, 25);
             this.label16.TabIndex = 18;
@@ -340,7 +343,7 @@ namespace LibraryProject
             // textBoxBooksID
             // 
             this.textBoxBooksID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBooksID.Location = new System.Drawing.Point(605, 310);
+            this.textBoxBooksID.Location = new System.Drawing.Point(263, 338);
             this.textBoxBooksID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxBooksID.Name = "textBoxBooksID";
             this.textBoxBooksID.Size = new System.Drawing.Size(397, 31);
@@ -350,7 +353,7 @@ namespace LibraryProject
             // labelBookName1
             // 
             this.labelBookName1.AutoSize = true;
-            this.labelBookName1.Location = new System.Drawing.Point(604, 355);
+            this.labelBookName1.Location = new System.Drawing.Point(262, 383);
             this.labelBookName1.Name = "labelBookName1";
             this.labelBookName1.Size = new System.Drawing.Size(46, 20);
             this.labelBookName1.TabIndex = 32;
@@ -359,7 +362,7 @@ namespace LibraryProject
             // labelBookName2
             // 
             this.labelBookName2.AutoSize = true;
-            this.labelBookName2.Location = new System.Drawing.Point(604, 386);
+            this.labelBookName2.Location = new System.Drawing.Point(262, 414);
             this.labelBookName2.Name = "labelBookName2";
             this.labelBookName2.Size = new System.Drawing.Size(46, 20);
             this.labelBookName2.TabIndex = 32;

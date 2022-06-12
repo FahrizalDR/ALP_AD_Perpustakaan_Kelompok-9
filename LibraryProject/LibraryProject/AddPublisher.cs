@@ -91,6 +91,7 @@ namespace LibraryProject
 
         private void AddPublisher_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             tampilData();
             tbPublisherPhone.MaxLength = 13;
         }

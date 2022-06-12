@@ -141,6 +141,7 @@ namespace LibraryProject
 
         private void AddBook_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             tampilData();
             LoadGenre();
             LoadAuthor();

@@ -29,7 +29,6 @@ namespace LibraryProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReturnBook));
             this.nudJumlahBuku = new System.Windows.Forms.NumericUpDown();
             this.dgvPengembalian = new System.Windows.Forms.DataGridView();
             this.buttonReturn = new System.Windows.Forms.Button();
@@ -72,7 +71,7 @@ namespace LibraryProject
             // nudJumlahBuku
             // 
             this.nudJumlahBuku.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudJumlahBuku.Location = new System.Drawing.Point(604, 250);
+            this.nudJumlahBuku.Location = new System.Drawing.Point(289, 354);
             this.nudJumlahBuku.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nudJumlahBuku.Name = "nudJumlahBuku";
             this.nudJumlahBuku.Size = new System.Drawing.Size(135, 31);
@@ -80,19 +79,23 @@ namespace LibraryProject
             // 
             // dgvPengembalian
             // 
+            this.dgvPengembalian.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvPengembalian.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dgvPengembalian.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPengembalian.Location = new System.Drawing.Point(209, 627);
+            this.dgvPengembalian.Location = new System.Drawing.Point(820, 144);
             this.dgvPengembalian.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvPengembalian.Name = "dgvPengembalian";
             this.dgvPengembalian.RowHeadersWidth = 51;
             this.dgvPengembalian.RowTemplate.Height = 24;
-            this.dgvPengembalian.Size = new System.Drawing.Size(998, 359);
+            this.dgvPengembalian.Size = new System.Drawing.Size(347, 409);
             this.dgvPengembalian.TabIndex = 52;
             this.dgvPengembalian.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPengembalian_CellClick);
             // 
             // buttonReturn
             // 
-            this.buttonReturn.Location = new System.Drawing.Point(392, 552);
+            this.buttonReturn.Location = new System.Drawing.Point(77, 656);
             this.buttonReturn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonReturn.Name = "buttonReturn";
             this.buttonReturn.Size = new System.Drawing.Size(174, 39);
@@ -103,7 +106,7 @@ namespace LibraryProject
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(827, 552);
+            this.buttonCancel.Location = new System.Drawing.Point(512, 656);
             this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(174, 39);
@@ -116,7 +119,7 @@ namespace LibraryProject
             // 
             this.chckboxLibrarian.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chckboxLibrarian.FormattingEnabled = true;
-            this.chckboxLibrarian.Location = new System.Drawing.Point(604, 204);
+            this.chckboxLibrarian.Location = new System.Drawing.Point(289, 308);
             this.chckboxLibrarian.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.chckboxLibrarian.Name = "chckboxLibrarian";
             this.chckboxLibrarian.Size = new System.Drawing.Size(397, 33);
@@ -125,7 +128,7 @@ namespace LibraryProject
             // dtpReturnReal
             // 
             this.dtpReturnReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpReturnReal.Location = new System.Drawing.Point(604, 455);
+            this.dtpReturnReal.Location = new System.Drawing.Point(289, 559);
             this.dtpReturnReal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtpReturnReal.Name = "dtpReturnReal";
             this.dtpReturnReal.Size = new System.Drawing.Size(397, 31);
@@ -135,7 +138,7 @@ namespace LibraryProject
             // dtpReturnContract
             // 
             this.dtpReturnContract.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpReturnContract.Location = new System.Drawing.Point(604, 410);
+            this.dtpReturnContract.Location = new System.Drawing.Point(289, 514);
             this.dtpReturnContract.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtpReturnContract.Name = "dtpReturnContract";
             this.dtpReturnContract.Size = new System.Drawing.Size(397, 31);
@@ -146,8 +149,8 @@ namespace LibraryProject
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(584, 458);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(269, 562);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(19, 25);
             this.label5.TabIndex = 45;
@@ -158,8 +161,8 @@ namespace LibraryProject
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(584, 413);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(269, 517);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(19, 25);
             this.label9.TabIndex = 44;
@@ -170,8 +173,8 @@ namespace LibraryProject
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(584, 253);
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(269, 357);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(19, 25);
             this.label10.TabIndex = 43;
@@ -182,8 +185,8 @@ namespace LibraryProject
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label11.Location = new System.Drawing.Point(584, 208);
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(269, 312);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(19, 25);
             this.label11.TabIndex = 42;
@@ -194,8 +197,8 @@ namespace LibraryProject
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label12.Location = new System.Drawing.Point(584, 134);
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(269, 238);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(19, 25);
             this.label12.TabIndex = 41;
@@ -206,8 +209,8 @@ namespace LibraryProject
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(584, 89);
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(269, 193);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(19, 25);
             this.label13.TabIndex = 40;
@@ -218,8 +221,8 @@ namespace LibraryProject
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Location = new System.Drawing.Point(584, 44);
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(269, 148);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(19, 25);
             this.label14.TabIndex = 39;
@@ -230,8 +233,8 @@ namespace LibraryProject
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(389, 463);
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(74, 567);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(108, 20);
             this.label6.TabIndex = 38;
@@ -242,8 +245,8 @@ namespace LibraryProject
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(389, 415);
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(74, 519);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(182, 20);
             this.label7.TabIndex = 37;
@@ -254,8 +257,8 @@ namespace LibraryProject
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(389, 257);
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(74, 361);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(147, 20);
             this.label8.TabIndex = 36;
@@ -266,8 +269,8 @@ namespace LibraryProject
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(389, 211);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(74, 315);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 20);
             this.label3.TabIndex = 35;
@@ -278,8 +281,8 @@ namespace LibraryProject
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(389, 92);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(74, 196);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 20);
             this.label4.TabIndex = 34;
@@ -290,8 +293,8 @@ namespace LibraryProject
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(389, 138);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(74, 242);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 20);
             this.label2.TabIndex = 33;
@@ -302,8 +305,8 @@ namespace LibraryProject
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(389, 48);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(74, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 32;
@@ -312,7 +315,7 @@ namespace LibraryProject
             // txtboxNIM
             // 
             this.txtboxNIM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxNIM.Location = new System.Drawing.Point(604, 130);
+            this.txtboxNIM.Location = new System.Drawing.Point(289, 234);
             this.txtboxNIM.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtboxNIM.Name = "txtboxNIM";
             this.txtboxNIM.Size = new System.Drawing.Size(397, 31);
@@ -322,7 +325,7 @@ namespace LibraryProject
             // txtboxReturnID
             // 
             this.txtboxReturnID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxReturnID.Location = new System.Drawing.Point(604, 85);
+            this.txtboxReturnID.Location = new System.Drawing.Point(289, 189);
             this.txtboxReturnID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtboxReturnID.Name = "txtboxReturnID";
             this.txtboxReturnID.Size = new System.Drawing.Size(397, 31);
@@ -331,7 +334,7 @@ namespace LibraryProject
             // txtboxBorrowID
             // 
             this.txtboxBorrowID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxBorrowID.Location = new System.Drawing.Point(604, 40);
+            this.txtboxBorrowID.Location = new System.Drawing.Point(289, 144);
             this.txtboxBorrowID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtboxBorrowID.Name = "txtboxBorrowID";
             this.txtboxBorrowID.Size = new System.Drawing.Size(397, 31);
@@ -340,7 +343,9 @@ namespace LibraryProject
             // labelNama
             // 
             this.labelNama.AutoSize = true;
-            this.labelNama.Location = new System.Drawing.Point(606, 172);
+            this.labelNama.BackColor = System.Drawing.Color.Transparent;
+            this.labelNama.ForeColor = System.Drawing.Color.Black;
+            this.labelNama.Location = new System.Drawing.Point(291, 276);
             this.labelNama.Name = "labelNama";
             this.labelNama.Size = new System.Drawing.Size(29, 20);
             this.labelNama.TabIndex = 54;
@@ -351,8 +356,8 @@ namespace LibraryProject
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label15.Location = new System.Drawing.Point(388, 297);
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(73, 401);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(83, 20);
             this.label15.TabIndex = 36;
@@ -361,7 +366,7 @@ namespace LibraryProject
             // textBoxBooksID
             // 
             this.textBoxBooksID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBooksID.Location = new System.Drawing.Point(604, 291);
+            this.textBoxBooksID.Location = new System.Drawing.Point(289, 395);
             this.textBoxBooksID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxBooksID.Name = "textBoxBooksID";
             this.textBoxBooksID.Size = new System.Drawing.Size(397, 31);
@@ -373,8 +378,8 @@ namespace LibraryProject
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label16.Location = new System.Drawing.Point(584, 292);
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(269, 396);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(19, 25);
             this.label16.TabIndex = 43;
@@ -383,7 +388,8 @@ namespace LibraryProject
             // labelBookName2
             // 
             this.labelBookName2.AutoSize = true;
-            this.labelBookName2.Location = new System.Drawing.Point(605, 371);
+            this.labelBookName2.ForeColor = System.Drawing.Color.Black;
+            this.labelBookName2.Location = new System.Drawing.Point(290, 475);
             this.labelBookName2.Name = "labelBookName2";
             this.labelBookName2.Size = new System.Drawing.Size(46, 20);
             this.labelBookName2.TabIndex = 55;
@@ -392,7 +398,8 @@ namespace LibraryProject
             // labelBookName1
             // 
             this.labelBookName1.AutoSize = true;
-            this.labelBookName1.Location = new System.Drawing.Point(605, 340);
+            this.labelBookName1.ForeColor = System.Drawing.Color.Black;
+            this.labelBookName1.Location = new System.Drawing.Point(290, 444);
             this.labelBookName1.Name = "labelBookName1";
             this.labelBookName1.Size = new System.Drawing.Size(46, 20);
             this.labelBookName1.TabIndex = 56;
@@ -400,7 +407,7 @@ namespace LibraryProject
             // 
             // buttonClear
             // 
-            this.buttonClear.Location = new System.Drawing.Point(610, 552);
+            this.buttonClear.Location = new System.Drawing.Point(295, 656);
             this.buttonClear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(174, 39);
@@ -411,9 +418,9 @@ namespace LibraryProject
             // 
             // buttonSearch
             // 
-            this.buttonSearch.Location = new System.Drawing.Point(1014, 130);
+            this.buttonSearch.Location = new System.Drawing.Point(692, 236);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(75, 32);
+            this.buttonSearch.Size = new System.Drawing.Size(75, 31);
             this.buttonSearch.TabIndex = 57;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
@@ -424,8 +431,8 @@ namespace LibraryProject
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label17.Location = new System.Drawing.Point(389, 507);
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(74, 611);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(44, 20);
             this.label17.TabIndex = 38;
@@ -436,8 +443,8 @@ namespace LibraryProject
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label18.Location = new System.Drawing.Point(584, 502);
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(269, 606);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(19, 25);
             this.label18.TabIndex = 45;
@@ -446,7 +453,7 @@ namespace LibraryProject
             // textBoxFine
             // 
             this.textBoxFine.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFine.Location = new System.Drawing.Point(604, 501);
+            this.textBoxFine.Location = new System.Drawing.Point(289, 605);
             this.textBoxFine.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxFine.Name = "textBoxFine";
             this.textBoxFine.Size = new System.Drawing.Size(397, 31);
@@ -457,7 +464,8 @@ namespace LibraryProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1420, 1003);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.labelBookName2);

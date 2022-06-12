@@ -96,3 +96,5 @@ D:\Kuliah\Semester 2 (2022)\Application Development\ALP_AD_Perpustakaan_Kelompok
 D:\Kuliah\Semester 2 (2022)\Application Development\ALP_AD_Perpustakaan_Kelompok-9\LibraryProject\LibraryProject\obj\Debug\LibraryProject.csproj.CoreCompileInputs.cache
 D:\Kuliah\Semester 2 (2022)\Application Development\ALP_AD_Perpustakaan_Kelompok-9\LibraryProject\LibraryProject\obj\Debug\LibraryProject.exe
 D:\Kuliah\Semester 2 (2022)\Application Development\ALP_AD_Perpustakaan_Kelompok-9\LibraryProject\LibraryProject\obj\Debug\LibraryProject.pdb
+D:\Kuliah\Semester 2 (2022)\Application Development\ALP_AD_Perpustakaan_Kelompok-9\LibraryProject\LibraryProject\obj\Debug\LibraryProject.AddLibrarian.resources
+D:\Kuliah\Semester 2 (2022)\Application Development\ALP_AD_Perpustakaan_Kelompok-9\LibraryProject\LibraryProject\obj\Debug\LibraryProject.Login.resources

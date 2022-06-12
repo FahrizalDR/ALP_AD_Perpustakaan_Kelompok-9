@@ -127,6 +127,7 @@ namespace LibraryProject
 
         private void BorrowBook_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             Clear();
             tampilData();
             Librarian();

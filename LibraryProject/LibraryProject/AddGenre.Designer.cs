@@ -53,105 +53,110 @@ namespace LibraryProject
             // tbGenreID
             // 
             this.tbGenreID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbGenreID.Location = new System.Drawing.Point(548, 52);
+            this.tbGenreID.Location = new System.Drawing.Point(173, 56);
+            this.tbGenreID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbGenreID.Name = "tbGenreID";
-            this.tbGenreID.Size = new System.Drawing.Size(267, 27);
+            this.tbGenreID.Size = new System.Drawing.Size(300, 31);
             this.tbGenreID.TabIndex = 29;
             // 
             // tbGenreName
             // 
             this.tbGenreName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbGenreName.Location = new System.Drawing.Point(548, 89);
+            this.tbGenreName.Location = new System.Drawing.Point(173, 102);
+            this.tbGenreName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbGenreName.Name = "tbGenreName";
-            this.tbGenreName.Size = new System.Drawing.Size(267, 27);
+            this.tbGenreName.Size = new System.Drawing.Size(300, 31);
             this.tbGenreName.TabIndex = 30;
             // 
             // tbRackNum
             // 
             this.tbRackNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbRackNum.Location = new System.Drawing.Point(548, 127);
+            this.tbRackNum.Location = new System.Drawing.Point(173, 150);
+            this.tbRackNum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbRackNum.Name = "tbRackNum";
-            this.tbRackNum.Size = new System.Drawing.Size(267, 27);
+            this.tbRackNum.Size = new System.Drawing.Size(300, 31);
             this.tbRackNum.TabIndex = 31;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(436, 54);
+            this.label1.Location = new System.Drawing.Point(47, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 17);
+            this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 32;
             this.label1.Text = "Genre ID ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(436, 92);
+            this.label2.Location = new System.Drawing.Point(47, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 17);
+            this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.TabIndex = 33;
             this.label2.Text = "Genre Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(436, 131);
+            this.label3.Location = new System.Drawing.Point(47, 155);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 17);
+            this.label3.Size = new System.Drawing.Size(74, 20);
             this.label3.TabIndex = 34;
             this.label3.Text = "Rack No.";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(591, 305);
+            this.label4.Location = new System.Drawing.Point(665, 381);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 17);
+            this.label4.Size = new System.Drawing.Size(0, 20);
             this.label4.TabIndex = 35;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(527, 55);
+            this.label5.Location = new System.Drawing.Point(150, 60);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(12, 17);
+            this.label5.Size = new System.Drawing.Size(13, 20);
             this.label5.TabIndex = 36;
             this.label5.Text = ":";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(527, 92);
+            this.label6.Location = new System.Drawing.Point(150, 106);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(12, 17);
+            this.label6.Size = new System.Drawing.Size(13, 20);
             this.label6.TabIndex = 37;
             this.label6.Text = ":";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(527, 131);
+            this.label7.Location = new System.Drawing.Point(150, 155);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(12, 17);
+            this.label7.Size = new System.Drawing.Size(13, 20);
             this.label7.TabIndex = 38;
             this.label7.Text = ":";
             // 
             // dgvGenre
             // 
             this.dgvGenre.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvGenre.Location = new System.Drawing.Point(225, 286);
+            this.dgvGenre.Location = new System.Drawing.Point(518, 59);
+            this.dgvGenre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvGenre.Name = "dgvGenre";
             this.dgvGenre.RowHeadersWidth = 51;
             this.dgvGenre.RowTemplate.Height = 24;
-            this.dgvGenre.Size = new System.Drawing.Size(789, 356);
+            this.dgvGenre.Size = new System.Drawing.Size(752, 388);
             this.dgvGenre.TabIndex = 39;
             this.dgvGenre.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGenre_CellClick);
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(439, 210);
+            this.buttonAdd.Location = new System.Drawing.Point(51, 253);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(86, 33);
+            this.buttonAdd.Size = new System.Drawing.Size(97, 41);
             this.buttonAdd.TabIndex = 40;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -159,9 +164,10 @@ namespace LibraryProject
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(729, 210);
+            this.buttonCancel.Location = new System.Drawing.Point(377, 253);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(86, 33);
+            this.buttonCancel.Size = new System.Drawing.Size(97, 41);
             this.buttonCancel.TabIndex = 41;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
@@ -169,9 +175,10 @@ namespace LibraryProject
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(536, 210);
+            this.buttonUpdate.Location = new System.Drawing.Point(160, 253);
+            this.buttonUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(86, 33);
+            this.buttonUpdate.Size = new System.Drawing.Size(97, 41);
             this.buttonUpdate.TabIndex = 42;
             this.buttonUpdate.Text = "Update";
             this.buttonUpdate.UseVisualStyleBackColor = true;
@@ -179,9 +186,10 @@ namespace LibraryProject
             // 
             // buttonClear
             // 
-            this.buttonClear.Location = new System.Drawing.Point(633, 210);
+            this.buttonClear.Location = new System.Drawing.Point(269, 253);
+            this.buttonClear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonClear.Name = "buttonClear";
-            this.buttonClear.Size = new System.Drawing.Size(86, 33);
+            this.buttonClear.Size = new System.Drawing.Size(97, 41);
             this.buttonClear.TabIndex = 43;
             this.buttonClear.Text = "Clear";
             this.buttonClear.UseVisualStyleBackColor = true;
@@ -190,34 +198,35 @@ namespace LibraryProject
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(527, 167);
+            this.label8.Location = new System.Drawing.Point(150, 200);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(12, 17);
+            this.label8.Size = new System.Drawing.Size(13, 20);
             this.label8.TabIndex = 46;
             this.label8.Text = ":";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(436, 167);
+            this.label9.Location = new System.Drawing.Point(47, 200);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 17);
+            this.label9.Size = new System.Drawing.Size(56, 20);
             this.label9.TabIndex = 45;
             this.label9.Text = "Status";
             // 
             // tbStatus
             // 
             this.tbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbStatus.Location = new System.Drawing.Point(548, 163);
+            this.tbStatus.Location = new System.Drawing.Point(173, 195);
+            this.tbStatus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbStatus.Name = "tbStatus";
-            this.tbStatus.Size = new System.Drawing.Size(267, 27);
+            this.tbStatus.Size = new System.Drawing.Size(300, 31);
             this.tbStatus.TabIndex = 32;
             // 
             // AddGenre
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.ClientSize = new System.Drawing.Size(1420, 841);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tbStatus);
@@ -236,6 +245,7 @@ namespace LibraryProject
             this.Controls.Add(this.tbRackNum);
             this.Controls.Add(this.tbGenreName);
             this.Controls.Add(this.tbGenreID);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddGenre";
             this.Text = "Add Genre";
             this.Load += new System.EventHandler(this.AddGenre_Load);

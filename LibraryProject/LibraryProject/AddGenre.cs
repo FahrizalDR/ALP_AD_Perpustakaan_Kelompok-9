@@ -85,6 +85,7 @@ namespace LibraryProject
 
         private void AddGenre_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             tampilData();            
         }
 

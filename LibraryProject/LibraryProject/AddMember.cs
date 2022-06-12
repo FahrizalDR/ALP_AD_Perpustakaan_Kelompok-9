@@ -103,6 +103,7 @@ namespace LibraryProject
 
         private void AddMember_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             tampilData();
             tbMemberPhone.MaxLength = 13;
         }

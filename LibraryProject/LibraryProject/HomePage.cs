@@ -19,6 +19,7 @@ namespace LibraryProject
 
         private void HomePage_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
             HomeDisplay homeDisplay = new HomeDisplay();
             homeDisplay.MdiParent = this;
             homeDisplay.Show();           
@@ -92,6 +93,23 @@ namespace LibraryProject
             RemoveBook removeBook = new RemoveBook();
             removeBook.MdiParent = this;
             removeBook.Show();
+        }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Visible = false;
+            Login logIn = new Login();
+            logIn.ShowDialog();
+            
+            
+        }
+
+        private void liToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddLibrarian addLibrarian = new AddLibrarian();
+            addLibrarian.MdiParent = this;
+            addLibrarian.Show();
         }
     }
 }

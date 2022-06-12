@@ -29,7 +29,6 @@ namespace LibraryProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeDisplay));
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.dgvPlayer = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlayer)).BeginInit();
@@ -37,32 +36,35 @@ namespace LibraryProject
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(423, 203);
+            this.textBoxSearch.Location = new System.Drawing.Point(476, 254);
+            this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(411, 22);
+            this.textBoxSearch.Size = new System.Drawing.Size(462, 26);
             this.textBoxSearch.TabIndex = 0;
             this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
             // dgvPlayer
             // 
-            this.dgvPlayer.BackgroundColor = System.Drawing.Color.Bisque;
+            this.dgvPlayer.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dgvPlayer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPlayer.Location = new System.Drawing.Point(200, 258);
+            this.dgvPlayer.Location = new System.Drawing.Point(225, 322);
+            this.dgvPlayer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvPlayer.Name = "dgvPlayer";
             this.dgvPlayer.RowHeadersWidth = 51;
             this.dgvPlayer.RowTemplate.Height = 24;
-            this.dgvPlayer.Size = new System.Drawing.Size(859, 385);
-            this.dgvPlayer.TabIndex = 1;            
+            this.dgvPlayer.Size = new System.Drawing.Size(966, 481);
+            this.dgvPlayer.TabIndex = 1;
             // 
             // HomeDisplay
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::LibraryProject.Properties.Resources.pexels_rafael_cosquiere_2041540;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.ClientSize = new System.Drawing.Size(1420, 841);
             this.Controls.Add(this.dgvPlayer);
             this.Controls.Add(this.textBoxSearch);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "HomeDisplay";
             this.Load += new System.EventHandler(this.HomeDisplay_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlayer)).EndInit();
